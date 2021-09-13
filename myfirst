@@ -1,0 +1,73 @@
+{
+"Payment" : {
+        "CustomerRef" : {
+          "value" : "7",
+          "name" : "Custome1"
+        },
+        "DepositToAccountRef" : {
+          "value" : "126"
+        },
+        "PaymentMethodRef" : {
+          "value" : "2"
+        },
+        "TotalAmt" : 3414.0,
+        "UnappliedAmt" : 0,
+        "ProcessPayment" : false,
+        "domain" : "QBO",
+        "sparse" : false,
+        "Id" : "17",
+        "SyncToken" : "0",
+        "MetaData" : {
+          "CreateTime" : "2021-08-01T09:34:50-07:00",
+          "LastUpdatedTime" : "2021-08-01T09:34:50-07:00"
+        },
+        "TxnDate" : "2021-08-01",
+        "CurrencyRef" : {
+          "value" : "INR",
+          "name" : "Indian Rupee"
+        },
+        "Line" : [ {
+          "Amount" : 3414.0,
+          "LinkedTxn" : [ {
+            "TxnId" : "7",
+            "TxnType" : "Invoice"
+          } ],
+          "LineEx" : {
+            "any" : [ {
+              "name" : "{http://schema.intuit.com/finance/v3}NameValue",
+              "declaredType" : "com.intuit.schema.finance.v3.NameValue",
+              "scope" : "javax.xml.bind.JAXBElement$GlobalScope",
+              "value" : {
+                "Name" : "txnId",
+                "Value" : "7"
+              },
+              "nil" : false,
+              "globalScope" : true,
+              "typeSubstituted" : false
+            }, {
+              "name" : "{http://schema.intuit.com/finance/v3}NameValue",
+              "declaredType" : "com.intuit.schema.finance.v3.NameValue",
+              "scope" : "javax.xml.bind.JAXBElement$GlobalScope",
+              "value" : {
+                "Name" : "txnOpenBalance",
+                "Value" : "10300.00"
+              },
+              "nil" : false,
+              "globalScope" : true,
+              "typeSubstituted" : false
+            }, {
+              "name" : "{http://schema.intuit.com/finance/v3}NameValue",
+              "declaredType" : "com.intuit.schema.finance.v3.NameValue",
+              "scope" : "javax.xml.bind.JAXBElement$GlobalScope",
+              "value" : {
+                "Name" : "txnReferenceNumber",
+                "Value" : "1002"
+              },
+              "nil" : false,
+              "globalScope" : true,
+              "typeSubstituted" : false
+            } ]
+          }
+        } ]
+      }
+}
